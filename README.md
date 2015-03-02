@@ -1,6 +1,8 @@
 ## Filipac CNP - Validare CNP
 [![Build Status](https://travis-ci.org/filipac/cnp.svg)](https://travis-ci.org/laravel/framework)[![Latest Stable Version](https://poser.pugx.org/filipac/cnp/v/stable.svg)](https://packagist.org/packages/filipac/cnp) [![Total Downloads](https://poser.pugx.org/filipac/cnp/downloads.svg)](https://packagist.org/packages/filipac/cnp) [![Latest Unstable Version](https://poser.pugx.org/filipac/cnp/v/unstable.svg)](https://packagist.org/packages/filipac/cnp) [![License](https://poser.pugx.org/filipac/cnp/license.svg)](https://packagist.org/packages/filipac/cnp)
 
+![Filipac/CNP](https://raw.githubusercontent.com/filipac/cnp/master/cnp.jpg)
+
 ### Cum instalez pachetul?
 ```
 composer require filipac/cnp ~1.0
