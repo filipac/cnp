@@ -7,7 +7,7 @@ class CnpTest extends PHPUnit_Framework_TestCase {
   public function testNachHasCheese()
   {
     $nacho = new Cnp;
-    $this->assertTrue($nacho->hasCheese());
+    $this->assertTrue($nacho->hasCheese(false));
   }
  
 }
