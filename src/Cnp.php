@@ -4,6 +4,12 @@ namespace Filipac\Cnp;
 class Cnp
 {
 
+    public static function invalid($cnp)
+    {
+        return ! static::valid($cnp);
+    }
+
+
     public static function valid($p_cnp)
     {
         // CNP must have 13 characters
