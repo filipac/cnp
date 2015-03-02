@@ -11,6 +11,8 @@ Sau introduceti in sectiunea require din ```composer.json```:
 ```json
 "filipac/cnp": "~1.0"
 ```
+[https://www.youtube.com/watch?v=LAH-0lSVPpc](Instalare tutorial youtube)
+[Instalare (tutorial Youtube)](https://www.youtube.com/watch?v=LAH-0lSVPpc)
 
 ### Cum folosesc acest pachet?
 Clasa ```Cnp``` are 2 metode publice statice: ```valid``` care returneaza un boolean (true, false). Este disponibila si functia
