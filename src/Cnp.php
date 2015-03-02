@@ -33,27 +33,23 @@ class Cnp
         $year = ( $cnp[1] * 10 ) + $cnp[2];
         switch ($cnp[0]) {
             case 1  :
-            case 2 : {
+            case 2 :
                 $year += 1900;
-            }
                 break; // cetateni romani nascuti intre 1 ian 1900 si 31 dec 1999
             case 3  :
-            case 4 : {
+            case 4 :
                 $year += 1800;
-            }
                 break; // cetateni romani nascuti intre 1 ian 1800 si 31 dec 1899
             case 5  :
-            case 6 : {
+            case 6 :
                 $year += 2000;
-            }
                 break; // cetateni romani nascuti intre 1 ian 2000 si 31 dec 2099
             case 7  :
             case 8 :
-            case 9 : {                // rezidenti si Cetateni Straini
+            case 9 :                // rezidenti si Cetateni Straini
                 $year += 2000;
                 if ($year > (int) date('Y') - 14) {
                     $year -= 100;
-                }
             }
                 break;
             default : {
