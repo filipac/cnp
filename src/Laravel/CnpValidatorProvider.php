@@ -17,6 +17,11 @@ class CnpValidatorProvider extends ServiceProvider {
     {
       return Cnp::valid($value);
     });
+    Validator::replacer('cnp', function($message, $attribute, $rule, $parameters)
+    {
+      $message = "Cnp-ul introdus nu este corect!";
+      return $message;
+    });
   }
 
   /**
