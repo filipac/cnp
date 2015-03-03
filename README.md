@@ -29,7 +29,21 @@ if(!Cnp::invalid('1930101021162')) #false
 	echo 'Cnp-ul este valid';
 ?>
 ```
-
+Incepand de la versiune **1.0.3** am introdus si un ServiceProvider pentru Laravel 5 in caz ca vreti sa folositi acest validator la un form. Tot ce trebuie sa faceti este sa puneti in ```app.php``` urmatorul service provider: ```'Filipac\Cnp\Laravel\CnpValidatorProvider',``` dupa care puteti sa folositi validatorul la orice FormRequest sau Validator in felul urmator:
+```php
+public function rules()
+	{
+		return [
+			'cnp' => 'required|max:13|cnp',
+		];
+	}
+```
+sau
+```php
+Validator::make($data, [
+			'cnp' => 'required|max:13|cnp',
+		])
+```
 ### Cum sa contribui?
 Daca ai idei de imbunatatire a acestui script, da fork acestui repository, fa modificarile necesare si apoi da un pull-request.
 Nu uita sa scrii un test (vezi ```tests/CnpTest.php```) pentru ce ai implementat, altfel nu voi accepta request-ul.
