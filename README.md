@@ -49,6 +49,6 @@ Daca ai idei de imbunatatire a acestui script, da fork acestui repository, fa mo
 Nu uita sa scrii un test (vezi ```tests/CnpTest.php```) pentru ce ai implementat, altfel nu voi accepta request-ul.
 Testarea se face cu **PhpUnit**.
 
-### Licienta
+### Licenta
 
 Acest script este distribuit sub [licienta MIT](http://opensource.org/licenses/MIT).
