@@ -51,4 +51,4 @@ Testarea se face cu **PhpUnit**.
 
 ### Licenta
 
-Acest script este distribuit sub [licienta MIT](http://opensource.org/licenses/MIT).
+Acest script este distribuit sub [licenta MIT](http://opensource.org/licenses/MIT).
