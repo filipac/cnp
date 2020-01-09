@@ -1,9 +1,11 @@
 <?php
+
+namespace Filipac\Cnp\Tests;
+
 use Filipac\Cnp\Cnp;
 
-class CnpTest extends PHPUnit_Framework_TestCase
+class CnpTest extends \PHPUnit_Framework_TestCase
 {
-
     /** @test */
     public function testCnpValid()
     {
@@ -24,5 +26,4 @@ class CnpTest extends PHPUnit_Framework_TestCase
         $invalid = Cnp::invalid('1930101021161');
         $this->assertTrue($invalid);
     }
-
 }
