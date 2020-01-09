@@ -4,7 +4,7 @@ namespace Filipac\Cnp\Tests;
 
 use Filipac\Cnp\Cnp;
 
-class CnpTest extends PHPUnit_Framework_TestCase
+class CnpTest extends \PHPUnit_Framework_TestCase
 {
     /** @test */
     public function testCnpValid()
