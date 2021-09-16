@@ -19,7 +19,7 @@ class CnpValidatorProvider extends ServiceProvider {
     });
     Validator::replacer('cnp', function($message, $attribute, $rule, $parameters)
     {
-      $message = "Cnp-ul introdus nu este corect!";
+      $message = trans()->has('validation.cnp') ? trans()->get('validation.cnp') : "CNP-ul introdus nu este corect!";
       return $message;
     });
   }
